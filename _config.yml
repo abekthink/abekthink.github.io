@@ -24,6 +24,9 @@ repository               : abekthink/abekthink.github.io # GitHub username/repo-
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
+
+og_image                 : /assets/images/site-logo.png
+
 comments:
   provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
   disqus:
@@ -47,7 +50,7 @@ search                   : true # true, false (default)
 
 # SEO Related
 # https://www.google.com/webmasters/tools
-google_site_verification : # "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replace this with your ID, or delete
+google_site_verification : "google23af7d64783b9ef0" # Replace this with your ID, or delete
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -72,21 +75,22 @@ social:
 
 
 # Analytics
+# https://www.google.com/analytics
 analytics:
-  provider               : # "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : # "UA-2011187-3" # Replace this with your ID, or delete
+    tracking_id          : "UA-111268597-1" # Replace this with your ID, or delete
 
 
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/lei-geng.jpg"
+  avatar           : "/assets/images/author.png"
   bio              : "Just another boring, time traveling, developer."
   location         : "Beijing, China"
   email            : "abekdev@163.com"
   uri              : "https://abekthink.github.io"
-  home             : "https://abekthink.github.io"
+  home             :
   bitbucket        :
   codepen          :
   dribbble         :
@@ -251,7 +255,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
+paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
