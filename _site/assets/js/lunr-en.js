@@ -10,23 +10,26 @@ var idx = lunr(function () {
 
   
   
-    idx.add({
-      title: "my first post",
-      excerpt: "my first post\nThis is my first post.Click the link below to go back to index:\nGo back\n",
-      categories: [],
-      tags: [],
-      id: 0
-    });
-    
+
+  
+  
+
+  
+  
+
+  
   
     idx.add({
       title: "Welcome to Jekyll!",
       excerpt: "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your...",
       categories: ["jekyll","update"],
       tags: [],
-      id: 1
+      id: 0
     });
     
+  
+
+  
   
 
 
@@ -37,27 +40,32 @@ var store = [
     
     
     
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
       
       {
-        "title": "my first post",
-        "url": "http://localhost:4000/2017/07/12/first-post.html",
-        "excerpt": "my first post\nThis is my first post.Click the link below to go back to index:\nGo back\n",
+        "title": "Welcome to Jekyll!",
+        "url": "http://localhost:4000/jekyll/update/welcome-to-jekyll/",
+        "excerpt": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your...",
         "teaser":
           
             null
           
       },
     
-      
-      {
-        "title": "Welcome to Jekyll!",
-        "url": "http://localhost:4000/jekyll/update/2017/12/14/welcome-to-jekyll.html",
-        "excerpt": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your...",
-        "teaser":
-          
-            null
-          
-      }
+  
+    
+    
     
   ]
 
