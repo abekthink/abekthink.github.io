@@ -18,6 +18,7 @@ toc_icon: "bars"
 ```bash
 brew install ruby
 ```
+
 如果机器是其他操作系统，这里就不详述了，可以去参考下[Ruby官方安装文档](https://www.ruby-lang.org/en/documentation/installation/)。
 
 另外，如果gem没有安装成功，可以参考[RubyGems](https://rubygems.org/pages/download)去安装gem。
@@ -35,7 +36,8 @@ gem install jekyll bundler
 
 ## 创建自己的GitHub Pages
 请进入[GitHub Pages](https://pages.github.com/)，按照步骤创建自己的站点。
-如果需要本地配置，请参考[GitHub Pages本地设置](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+
+如果需要本地配置，请参考[GitHub Pages本地设置](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)。
 
 
 ## 初始化自己的站点
@@ -53,6 +55,7 @@ bundle exec jekyll serve
 
 ## 添加Jekyll主题
 我自己选择了[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)主题。
+
 创建或者编辑根目录下的Gemfile，增改或者增加如下代码：
 ```ruby
 source "https://rubygems.org"
@@ -67,7 +70,9 @@ bundle update
 ```
 
 修改根目录下的_config.yml文件：
-增加`remote_theme: "mmistakes/minimal-mistakes"`
+
+增加`remote_theme: "mmistakes/minimal-mistakes"`。
+
 然后将[`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme)添加至自己`_config.yml`文件中`plugins`数组中，例如:
 ```
 plugins:
@@ -75,3 +80,15 @@ plugins:
 ```
 
 最后，你可以使用`bundle exec jekyll serve`测试主题是否添加成功了。
+
+
+## 撰写博文
+撰写博文时，需要将文件放在`_post`目录下，文件的命名格式一般为`YEAR-MONTH-DAY-title.MARKUP`。
+
+当`YEAR`是一个四位数时，`MONTH`和`DAY`必须都是一个两位数，`MARKUP`是文件名后缀，下面两个是正确的例子：
+```
+2016-06-04-hello-world.md
+2017-08-18-writing-blogs.markdown
+```
+
+如何撰写不熟悉markdown文件，请参考[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)。
