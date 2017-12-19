@@ -42,6 +42,15 @@ comments:
 staticman:
   branch                 : "master"
 
+# reCaptcha
+# Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
+reCaptcha:
+  enabled: true
+  siteKey: "6LetIj0UAAAAAGx4pLUJ6thRFQ_usdh1BKTRqmQE"
+  # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+  # For more information, https://staticman.net/docs/encryption
+  secret: "RpIKFX077QsKpBlVP097YH3DjuVJrhUkLoHrBTdzpocS93VkGmGeuIMOqvTwlFauDI+5Ds5VeV46aoZhyeuYy2oiUWd4Ozyq76hL+mFztrLk48rb3Pru+g9+bgP6Lyqs42xNbSTAaPv1B/P9S6CIGqRYF15E2rdjsMSmRfw0lYw="
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
