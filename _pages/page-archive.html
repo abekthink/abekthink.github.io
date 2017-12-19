@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Taxonomy"
+excerpt: "Taxonomy summary, you can choose categories or tags."
+sitemap: true
+permalink: /page-archive/
+author_profile: true
+---
+
+{% for post in site.pages %}
+  {% if post.name == "category-archive.html" or post.name == "tag-archive.html" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
