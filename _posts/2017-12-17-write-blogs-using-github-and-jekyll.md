@@ -4,6 +4,11 @@ layout: single
 date:   2017-12-17 20:18:00 +0800
 categories: website
 tags: ["github pages", "jekyll"]
+
+# http://fontawesome.io/icons/
+toc: true
+toc_label: "Contents"
+toc_icon: "bars"
 ---
 这里主要讲下自己是怎么一步一步从零开始搭建自己的博客的。
 
