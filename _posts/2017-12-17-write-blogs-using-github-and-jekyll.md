@@ -85,7 +85,7 @@ plugins:
 ## 撰写博文
 撰写博文时，需要将文件放在`_post`目录下，文件的命名格式一般为`YEAR-MONTH-DAY-title.MARKUP`。
 
-当`YEAR`是一个四位数时，`MONTH`和`DAY`必须都是一个两位数，`MARKUP`是文件名后缀，下面两个是正确的例子：
+当`YEAR`是一个四位数时，`MONTH`和`DAY`必须都是两位数，`MARKUP`是文件名后缀，下面两个是正确的例子：
 ```
 2016-06-04-hello-world.md
 2017-08-18-writing-blogs.markdown
