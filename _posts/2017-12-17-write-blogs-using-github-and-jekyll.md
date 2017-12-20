@@ -92,3 +92,14 @@ plugins:
 ```
 
 如何撰写不熟悉markdown文件，请参考[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)。
+
+
+## 配置评论
+在配置staticman V2时，需要关注以下几点：
+- reCaptcha的密钥等设置，需要在`_config.yml`和`staticman.yml`两个文件中都添加。
+- reCaptcha的secret需要进行[staticman密钥加密](https://staticman.net/docs/encryption)。
+
+参考文档：
+- [Mistakes Theme Configuration](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
+- [Staticman Docs](https://staticman.net/docs/)
+- [reCaptcha](https://www.google.com/recaptcha)

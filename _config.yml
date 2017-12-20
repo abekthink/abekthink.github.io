@@ -181,10 +181,10 @@ kramdown:
 
 
 # Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+#  docs:
+#    output: true
+#    permalink: /:collection/:path/
 
 
 # Defaults
