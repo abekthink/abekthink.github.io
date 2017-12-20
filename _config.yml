@@ -193,6 +193,9 @@ defaults:
       comments: true
       share: true
       related: true
+      # http://fontawesome.io/icons/
+      toc: true
+      toc_icon: "bars"
   # _pages
   - scope:
       path: "_pages"
@@ -222,8 +225,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
+
 paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
+paginate_path: /page:num/
 timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
