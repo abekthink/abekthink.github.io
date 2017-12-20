@@ -180,13 +180,6 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
-#collections:
-#  docs:
-#    output: true
-#    permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
   # _posts
