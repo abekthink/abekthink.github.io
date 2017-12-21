@@ -148,6 +148,7 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIzMmNkOGI4M2RjZTk0MDBjOGNjOWRiNmV
 这里再次提醒下大家要注意的几点：
 - JWT生成过程中不要放用户的敏感信息，因为很容易泄露。
 - 出于安全考虑，建议对iss、sub、aud、nbf和exp字段均进行验证。
+- 请尽量使用https协议。
 - 别重复造轮子，现在有很多现成的[JWT开源库](https://jwt.io/)，包括c、python、java、nodejs、javascript、ruby、go等各种主流语言的版本。
 
 
