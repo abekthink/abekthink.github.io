@@ -2,7 +2,7 @@
 title:  "一小时内使用Jekyll搭建自己的GitHub博客"
 date:   2017-12-17 20:18:00 +0800
 categories: website
-tags: ["github pages", "jekyll"]
+tags: ["GitHub Pages", "Jekyll"]
 ---
 这里主要讲下自己是怎么一步一步从零开始搭建自己的博客的。
 
@@ -93,7 +93,9 @@ plugins:
 - reCaptcha的密钥等设置，需要在`_config.yml`和`staticman.yml`两个文件中都添加。
 - reCaptcha的secret需要进行[staticman密钥加密](https://staticman.net/docs/encryption)。
 
-参考文档：
+## 参考文档
+- [GitHub Pages](https://pages.github.com/)
 - [Mistakes Theme Configuration](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Staticman Docs](https://staticman.net/docs/)
 - [reCaptcha](https://www.google.com/recaptcha)
