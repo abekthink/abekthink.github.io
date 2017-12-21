@@ -1,6 +1,6 @@
 ---
 title:  "使用JWT保证服务间通信的安全"
-date:   2017-12-17 20:18:00 +0800
+date:   2017-12-19 21:08:10 +0800
 categories: backend
 tags: ["JWT", "JSON Web Token", "Authentication Server"]
 ---
