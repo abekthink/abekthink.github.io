@@ -81,7 +81,6 @@ payload也是一个JSON对象，它主要包含了一些用户的有效信息，
   "aud": "someone",
   "sub": "abekthink.github.io"
 }
-
 ```
 
 标准中的保留字如下：
