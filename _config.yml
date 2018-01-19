@@ -59,7 +59,7 @@ search                   : true # true, false (default)
 
 # SEO Related
 # https://www.google.com/webmasters/tools
-google_site_verification : "google23af7d64783b9ef0" # Replace this with your ID, or delete
+google_site_verification : "Y-WQOYZsvUjKJEx7PweuAgSC4_-treMFMNaHjM2iOeo" # Replace this with your ID, or delete
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
