@@ -2,8 +2,9 @@
 title:  "使用JWT保证服务间通信的安全"
 date:   2017-12-19 21:08:10 +0800
 categories: backend
-tags: ["JWT", "JSON Web Token", "Authentication Server"]
+tags: ["JWT", "JSON Web Token", "Authentication Server", "认证"]
 ---
+
 本文主要讲下JWT(JSON Web Token)的基本原理，以及为什么使用它，如何使用它。
 
 
@@ -40,7 +41,7 @@ session认证就是后面这种实现方式：当用户登录成功后，由服�
 这种认证方式相对简单，而且可扩展性很强，无需考虑服务器的单点问题等。我这里选用了JWT作为token的生成策略。
 
 <figure>
-  <img src="{{ '/assets/images/jwt-auth.png' }}" alt="How an application uses JWT to verify the authenticity of a user.">
+  <img src="{{ '/assets/images/jwt/jwt-auth.png' }}" alt="How an application uses JWT to verify the authenticity of a user.">
 </figure>
 
 
