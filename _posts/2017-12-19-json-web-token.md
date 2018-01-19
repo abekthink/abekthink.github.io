@@ -40,9 +40,7 @@ session认证就是后面这种实现方式：当用户登录成功后，由服�
 
 这种认证方式相对简单，而且可扩展性很强，无需考虑服务器的单点问题等。我这里选用了JWT作为token的生成策略。
 
-<figure>
-  <img src="{{ '/assets/images/jwt/jwt-auth.png' }}" alt="How an application uses JWT to verify the authenticity of a user.">
-</figure>
+<img src="{{ '/assets/images/jwt/jwt-auth.png' }}" alt="How an application uses JWT to verify the authenticity of a user." width="80%"/>
 
 
 ## JWT生成与验证

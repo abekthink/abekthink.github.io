@@ -32,7 +32,7 @@ tags: ["robot", "robotframework", "autotest", "test", "自动化测试"]
 ### 架构设计
 Robot Framework是一个通用的，独立于应用和技术的框架。它有一个高度模块化的体系结构，如下图：
 
-<img src="{{ '/assets/images/robot-framework/architecture.jpg' }} " alt="Robot Framework architecture" height="400" width="400"/>
+<img src="{{ '/assets/images/robot-framework/architecture.jpg' }} " alt="Robot Framework architecture" width="50%"/>
 
 这里进行几点说明：
 - 测试数据（`Test Data`）可以采用简单易编辑的表格形式进行撰写。
