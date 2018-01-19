@@ -2,7 +2,7 @@
 title:  "Robot Framework教程 —— 安装"
 date:   2018-01-17 20:54:16 +0800
 categories: test
-tags: ["robot", "robotframework", "autotest", "test", "自动化测试"]
+tags: ["robot", "robotframework", "autotest", "test", "agile", "自动化测试"]
 ---
 
 本文主要讲下如何使用Robot Framework搭建自己的自动化测试框架，包括如下几部分：

@@ -2,7 +2,7 @@
 title:  "Robot Framework教程 —— 关键字"
 date:   2018-01-18 23:58:56 +0800
 categories: test
-tags: ["robot", "robotframework", "autotest", "test", "keywords", "自动化测试"]
+tags: ["robot", "robotframework", "autotest", "test", "agile", "keywords", "自动化测试"]
 ---
 
 本文主要讲下如何使用Robot Framework搭建自己的自动化测试框架，包括如下几部分：
@@ -181,3 +181,4 @@ Robot Framework框架产生的报告和日志文件功能是非常强大的。
 - [Robot Framework标准库](http://robotframework.org/robotframework/#standard-libraries)
 - [Keywords语法简明教程](https://github.com/ThomasJaspers/robot-keyword-tutorial)
 - [本文代码示例](https://github.com/abekthink/robot-framework-demo)
+- [robot-keyword-tutorial](https://github.com/ThomasJaspers/robot-keyword-tutorial)
