@@ -11,5 +11,5 @@ do
     path=${CUR_PATH}${path}
     echo "image *.png converted to *.jpg in the path $path"
     cd ${path}
-    ls -1 *.png | xargs -n 1 bash -c 'convert "$0" "${0%.png}.jpg"'
+    ls -1 *.png | xargs -n 1 bash -c 'convert -quality 50 "$0" "${0%.png}.jpg"'
 done
