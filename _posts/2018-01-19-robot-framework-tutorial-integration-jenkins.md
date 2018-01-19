@@ -53,7 +53,7 @@ mkdir -p reports/robot-framework-demo
 
 
 ## 配置测试插件
-从`首页` -> `系统管理` -> `管理插件`打开插件管理的页面。在页面选择`可选插件`，然后搜索`robot`，结果中有个`Robot Framework plugin`，这个就是我们想要的，我们安装即可。
+按照`首页` -> `系统管理` -> `管理插件`打开插件管理的页面。在页面选择`可选插件`，然后搜索`robot`，结果中有个`Robot Framework plugin`，这个就是我们想要的，我们安装即可。
 
 <figure>
   <img src="{{ '/assets/images/robot-framework/jenkins-plugin-management.jpg' }}" alt="Jenkins Plugin Management"/>
