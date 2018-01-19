@@ -86,7 +86,9 @@ plugins:
 2017-08-18-writing-blogs.markdown
 ```
 
-如何撰写不熟悉markdown文件，请参考[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)。
+如何撰写不熟悉markdown文件，请参考：
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)。
+- [Learning-Markdown](http://xianbai.me/learn-md/index.html)。
 
 
 ## 配置评论
@@ -97,6 +99,5 @@ plugins:
 ## 参考文档
 - [GitHub Pages](https://pages.github.com/)
 - [Mistakes Theme Configuration](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Staticman Docs](https://staticman.net/docs/)
 - [reCaptcha](https://www.google.com/recaptcha)
