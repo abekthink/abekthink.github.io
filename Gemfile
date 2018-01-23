@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.6.2"
+# gem "jekyll", "~> 3.6.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"
@@ -18,7 +18,7 @@ gem "jekyll", "~> 3.6.2"
 gem "github-pages", group: :jekyll_plugins
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"
 
 # gem 'jekyll-remote-theme', github: 'benbalter/jekyll-remote-theme', branch: 'rubyzip'
 
