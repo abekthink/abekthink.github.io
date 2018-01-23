@@ -28,9 +28,9 @@ words_per_minute         : 50
 og_image                 : "/assets/images/site-logo.png"
 
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
   disqus:
-    shortname            :
+    shortname            : "abekthink"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -238,7 +238,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -247,7 +247,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 
 # Archives
