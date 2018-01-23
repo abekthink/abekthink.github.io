@@ -96,8 +96,29 @@ plugins:
 - reCaptcha的密钥等设置，需要在`_config.yml`和`staticman.yml`两个文件中都添加。
 - reCaptcha的secret需要进行[staticman密钥加密](https://staticman.net/docs/encryption)。
 
+
+## 本地无法启动问题
+在本地启动时如果出现如下报错，基本上是因为国内网络下载或者unzip解压有问题导致。
+```shell
+jekyll 3.6.2 | Error:  Zip end of central directory signature not found
+```
+
+出现这种问题，可以考虑采取以下两种方式：
+
+第一种：将依赖的包解压换成`rubyzip`，例如：
+```
+gem 'jekyll-remote-theme', github: 'benbalter/jekyll-remote-theme', branch: 'rubyzip'
+```
+
+第二种：如果是remote_theme无法下载，可以考虑将依赖提前下载安装，theme直接使用，例如：
+- 首先，将`gem "minimal-mistakes-jekyll"`加入到`Gemfile`中
+- 然后，执行`bundle install`更新依赖
+- 最后，在`_config.yml`文件中设置`theme: minimal-mistakes-jekyll`，需要将原来的`remote_theme`设置移除
+
+
 ## 参考文档
 - [GitHub Pages](https://pages.github.com/)
 - [Mistakes Theme Configuration](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
 - [Staticman Docs](https://staticman.net/docs/)
 - [reCaptcha](https://www.google.com/recaptcha)
+- [Error: No such file or directory - unzip](https://github.com/benbalter/jekyll-remote-theme/issues/5)
