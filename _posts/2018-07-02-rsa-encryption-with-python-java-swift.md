@@ -1,5 +1,5 @@
 ---
-title:  "RSA Encryption with Python&Java&Swift"
+title:  "RSA Encryption with Python and Java and Swift"
 date:   2018-07-01 19:28:50 +0800
 categories: "backend"
 tags: ["rsa", "python", "java", "android", "swift"]
